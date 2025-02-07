@@ -8,8 +8,7 @@ vue/src
 .idea/
 
 ### macOS ###
-.DS_Store
-*/DS_Store
+**/.DS_Store
 
 ### Windows ###
 Thumbs.db
