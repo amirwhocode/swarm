@@ -10,6 +10,7 @@ This project sets up a development environment using Docker for four popular fro
 
 ## Prerequisites
 - Docker (including Docker Compose) installed on your machine.
+- The src folder is ignored by Git, so you'll need to create it manually before starting Docker. If you're not installing the required framework (which Docker Compose needs), Docker will crash. In that case, just create an empty src folder in each directory.
 
 ## Services Overview
 This project defines the following services in a `docker-compose.yml` file:
