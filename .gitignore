@@ -1,0 +1,16 @@
+# Frameworks
+angular/src
+react/src
+svelte/src
+vue/src
+
+### IDE and Editors ###
+.idea/
+
+### macOS ###
+.DS_Store/
+
+### Windows ###
+Thumbs.db
+Thumbs.db:encryptable
+[Dd]esktop.ini

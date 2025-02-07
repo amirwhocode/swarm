@@ -1,0 +1,42 @@
+services:
+  react:
+    build:
+      context: ./react
+    container_name: react
+    ports:
+      - 3000:3000
+      - 5173:5173
+    volumes:
+      - ./react/src:/workspace
+    tty: true
+
+  vue:
+    build:
+      context: ./vue
+    container_name: vue
+    ports:
+      - 8080:8080
+      - 5174:5173
+    volumes:
+      - ./vue/src:/workspace
+    tty: true
+
+  angular:
+    build:
+      context: ./angular
+    container_name: angular
+    ports:
+      - 4200:4200
+    volumes:
+      - ./angular/src:/workspace
+    tty: true
+
+  svelte:
+    build:
+      context: ./svelte
+    container_name: svelte
+    ports:
+      - 5175:5173
+    volumes:
+      - ./svelte/src:/workspace
+    tty: true
