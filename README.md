@@ -31,8 +31,8 @@ This project defines the following services in a `docker-compose.yml` file:
 
 ### 1. Clone the repository (if not already done)
 ```
-git clone <repository-url>
-cd <project-directory>
+git clone https://github.com/amirwhocode/swarm.git
+cd swarm
 ```
 ### 2. Build the image
 ```
