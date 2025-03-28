@@ -93,18 +93,18 @@ npm run dev
 Once the containers are running and you have successfully installed the chosen framework (React, Vue, Angular, or Svelte), you can access the frontend applications in your browser:
 
 ### React
-   - **Default**: [http://localhost:3000](http://localhost:3000)
-   - **With Vite**: [http://localhost:5173](http://localhost:5173) (if applicable)
+   - **Default**: [http://localhost:53000](http://localhost:53000)
+   - **With Vite**: [http://localhost:55173](http://localhost:55173) (if applicable)
 
 ### Vue
-   - **Vue CLI**: [http://localhost:8080](http://localhost:8080)
-   - **With Vite**: [http://localhost:5174](http://localhost:5174) (if applicable)
+   - **Vue CLI**: [http://localhost:68080](http://localhost:68080)
+   - **With Vite**: [http://localhost:65173](http://localhost:65173) (if applicable)
 
 ### Angular
-   - **Angular CLI**: [http://localhost:4200](http://localhost:4200)
+   - **Angular CLI**: [http://localhost:54200](http://localhost:54200)
 
 ### Svelte
-   - **SvelteKit powered by Vite**: [http://localhost:5175](http://localhost:5175)
+   - **SvelteKit powered by Vite**: [http://localhost:45173](http://localhost:45173)
 
 ## Troubleshooting
 ### If you installed React with Vite
